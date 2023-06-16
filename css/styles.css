@@ -616,6 +616,10 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-top: 72px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
 }
 .modal-btn {
   position: absolute;
@@ -647,8 +651,20 @@ body {
 .modal-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.p-modal {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
 
 /* Footer Form */
+.footer-form {
+  margin-left: 80px;
+}
 .p-form {
   margin-bottom: 16px;
   font-weight: 500;
