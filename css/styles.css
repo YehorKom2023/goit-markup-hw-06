@@ -747,6 +747,9 @@ body {
   justify-content: center;
   fill: transparent;
 }
+.link-chek {
+  color: #4d5ae5;
+}
 .btn-label {
   display: block;
   min-width: 169px;
