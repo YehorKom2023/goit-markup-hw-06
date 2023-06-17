@@ -663,7 +663,7 @@ body {
 .form-class {
   margin-bottom: 8px;
 }
-.form-class-2 {
+.form-class-tw {
   margin-bottom: 16px;
 }
 .modal-label {
@@ -722,6 +722,11 @@ body {
   margin-bottom: 24px;
 }
 .input-checkbox {
+}
+.input-checkbox:checked + .span-label {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 .check-label {
   font-size: 12px;
