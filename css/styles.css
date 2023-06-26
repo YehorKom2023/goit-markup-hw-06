@@ -121,6 +121,7 @@ body {
 .in-activ {
   color: #404bbf;
 }
+
 .in-activ::after {
   content: "";
   color: #404bbf;
